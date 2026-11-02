@@ -35,7 +35,7 @@ if (ENVIRONMENT_IS_NODE) {
 
 // --pre-jses are emitted after the Module integration code, so that they can
 // refer to Module (if they choose; they can also define Module)
-// include: C:\Users\NKTRa\AppData\Local\Temp\tmpqecufnrk.js
+// include: C:\Users\NKTRa\AppData\Local\Temp\tmp158jq16l.js
 
   Module['expectedDataFileDownloads'] ??= 0;
   Module['expectedDataFileDownloads']++;
@@ -221,14 +221,14 @@ Module['FS_createPath']("/", "Music", true, true);
 
   })();
 
-// end include: C:\Users\NKTRa\AppData\Local\Temp\tmpqecufnrk.js
-// include: C:\Users\NKTRa\AppData\Local\Temp\tmpsavoacqw.js
+// end include: C:\Users\NKTRa\AppData\Local\Temp\tmp158jq16l.js
+// include: C:\Users\NKTRa\AppData\Local\Temp\tmpmzn1l9dt.js
 
     // All the pre-js content up to here must remain later on, we need to run
     // it.
     if (Module['$ww'] || (typeof ENVIRONMENT_IS_PTHREAD != 'undefined' && ENVIRONMENT_IS_PTHREAD)) Module['preRun'] = [];
     var necessaryPreJSTasks = Module['preRun'].slice();
-  // end include: C:\Users\NKTRa\AppData\Local\Temp\tmpsavoacqw.js
+  // end include: C:\Users\NKTRa\AppData\Local\Temp\tmpmzn1l9dt.js
 // include: C:\Users\NKTRa\Documents\Codex\2026-11-01\c-program-files-x86-steam-steamapps\work\chowdren-generated\web_pre.js
 Module.preRun = Module.preRun || [];
 Module.preRun.push(function () {
@@ -286,13 +286,13 @@ Module.preRun.push(function () {
   });
 });
 // end include: C:\Users\NKTRa\Documents\Codex\2026-11-01\c-program-files-x86-steam-steamapps\work\chowdren-generated\web_pre.js
-// include: C:\Users\NKTRa\AppData\Local\Temp\tmpmespr7nb.js
+// include: C:\Users\NKTRa\AppData\Local\Temp\tmpp9nne027.js
 
     if (!Module['preRun']) throw 'Module.preRun should exist because file support used it; did a pre-js delete it?';
     necessaryPreJSTasks.forEach((task) => {
       if (Module['preRun'].indexOf(task) < 0) throw 'All preRun tasks that exist before user pre-js code should remain after; did you replace Module or modify Module.preRun?';
     });
-  // end include: C:\Users\NKTRa\AppData\Local\Temp\tmpmespr7nb.js
+  // end include: C:\Users\NKTRa\AppData\Local\Temp\tmpp9nne027.js
 
 
 // Sometimes an existing Module object exists with properties
